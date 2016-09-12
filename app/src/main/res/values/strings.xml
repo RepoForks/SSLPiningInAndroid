@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SSLDemo</string>
+
+    <!-- BKS File Password -->
+    <!--<string name="Key_PiningPassword">gapi1234</string>-->
+    <string name="Key_PiningPassword">fb1234</string>
+    <!-- UAT Server -->
+    <!--<string name="base_url">https://maps.google.com/maps/api/geocode/json?address=mumbai&amp;sensor=false</string>-->
+    <string name="base_url">https://graph.facebook.com/me/home?limit=25&amp;since=1374196005</string>
+
+</resources>

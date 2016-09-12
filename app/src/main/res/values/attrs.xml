@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Styles -->
+    <attr name="styleCaldroidViewLayout" format="reference" />
+    <attr name="styleCaldroidLeftArrow" format="reference" />
+    <attr name="styleCaldroidRightArrow" format="reference" />
+    <attr name="styleCaldroidMonthName" format="reference" />
+    <attr name="styleCaldroidNormalCell" format="reference" />
+    <attr name="styleCaldroidSquareCell" format="reference" />
+    <attr name="styleCaldroidGridView" format="reference" />
+    <attr name="styleCaldroidWeekdayView" format="reference" />
+
+    <!-- Custom states -->
+    <declare-styleable name="DateState">
+        <attr name="state_date_today" format="boolean" />
+        <attr name="state_date_selected" format="boolean" />
+        <attr name="state_date_disabled" format="boolean" />
+        <attr name="state_date_prev_next_month" format="boolean" />
+    </declare-styleable>
+
+    <!-- Declare stylable attribute for a cell -->
+    <declare-styleable name="Cell">
+        <attr name="android:textColor" />
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SwipeRevealLayout">
+        <attr name="dragEdge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+            <flag name="top" value="4" />
+            <flag name="bottom" value="8" />
+        </attr>
+
+        <attr name="mode">
+            <enum name="normal" value="0" />
+            <enum name="same_level" value="1" />
+        </attr>
+
+        <attr name="flingVelocity" format="integer" />
+    </declare-styleable>
+</resources>
